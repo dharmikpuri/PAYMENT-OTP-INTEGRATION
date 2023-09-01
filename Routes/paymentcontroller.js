@@ -18,7 +18,7 @@ module.exports.orders = (req,res) => {
         return res.send({code:500, message:"Error creating order"})
      }
       res.send({code:200, message:"orders created successfully", data:order})
-  });
+  });       
  
 };
 module.exports.verify = (req,res) => {
