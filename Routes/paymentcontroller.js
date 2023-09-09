@@ -9,7 +9,7 @@ module.exports.orders = (req,res) => {
     key_secret: process.env.key_secret,
   });
   let options = {
-    amount: req.body.amount*100, 
+    amount: req.body.amount*100,    
     currency: "INR",
     
   };
